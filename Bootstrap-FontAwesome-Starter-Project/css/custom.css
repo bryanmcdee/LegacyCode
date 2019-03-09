@@ -1,0 +1,53 @@
+.footer{
+    position: relative;
+    min-height: 100px;
+    background-color: black;
+}
+.footer-content{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.footer-content-color{
+    color: white;
+}
+.social-media-icons ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-media-icons a {	
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px;
+}
+.fa-google-plus-square {
+	color: #CF3D2E;
+}
+.fa-twitter-square {
+	color: #4099FF;
+}
+.fa-youtube-square {
+	color: #b31217;
+}
+.fa-rss-square {
+	color: #FF6600;
+}
+.social-media-icons ul a i:hover{
+	color: white;
+}
+.fa-linkedin-square{
+    color:#0085AE;
+}
+.fa-github-square{
+    color:white;
+}
+.fa-instagram{
+    color:#A1755C;
+}
+.fa-facebook-square{
+    color:#3C599F;
+}
