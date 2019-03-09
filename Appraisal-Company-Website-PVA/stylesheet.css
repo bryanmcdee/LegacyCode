@@ -1,0 +1,288 @@
+/* css for Property Value Appraisals */
+body{
+	background-color:#E8E8E8;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	/* Container CSS */
+	#container{
+		border-style:solid;
+		border-color: #000000;
+		margin: 10px auto;
+		width: 1000px;
+		background-color:#FFFFFF;
+		}
+		
+	/* Logo CSS */
+	#logo{
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 10px;
+		padding: 5px 5px 5px 5px;
+		background-image: url(Images/AppraisalLogoText.jpg); 
+		background-repeat: no-repeat;
+		min-height:125px;
+		}
+		
+	/* Navigation CSS */
+	ul#list-nav{
+		margin:0px;
+		padding:0;
+		list-style:none;
+		font-size: 1.1em;
+		}
+	
+	ul#list-nav li{
+		display:inline;
+		}
+	
+	ul#list-nav li a{
+		text-decoration:none;
+		padding:5px 0;
+		width:150px;
+		background-color: #000000;
+		color: #FFFFFF;
+		float:left;
+		}
+	
+	ul#list-nav li a {
+		text-align:center;
+		border-right:1px solid #fff;
+		}
+	
+	ul#list-nav li a:hover {
+		background-color: #FFFFFF;
+		color: #000000;
+		}
+	
+	#nav{
+		width:100%;
+		float: left;
+		background-color: #000000;
+		margin: 0 0 1em 0;
+		border-bottom:2px solid #fff;
+		}
+		
+	/* Left Column CSS */
+	#leftcolumn{
+		float: left;
+		width: 700px;
+		background-color:#FFFFFF;
+		min-height: 300px;
+		padding: 10px;
+		}
+	
+	/* Content Widgets in the left colum */
+	.contentwidget {
+		width: 300px;
+		height: 200px;
+		border-style:solid;
+		border-color: #BEBEBE;
+		padding-left: 10px;
+		padding-top: 0px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		margin-right: 10px;
+		margin-top:10px;
+		float: right;
+		}
+		
+	.contentwidget a{
+		text-decoration:none;
+		font-size:1.0em;
+		font-weight: bold;
+		color: #000000;
+		}	
+	
+	/* Content in the left column */
+	#content {
+		background-color:#FFFFFF;
+		font-size:1.2em;
+		}
+	
+	/* formating for h4 in the content area */
+	#content h4 {
+		padding-left:25px;
+	}
+	/* Paragraphs in content area */
+	#content p {
+		text-indent:15px;
+	}
+	
+	/* text in the content area that needs to be a smaller font */
+	.paragraphnote {
+		font-size:.7em;
+	}
+	
+	/* Definition lists in content area */
+	#content dt {
+		font-weight: bold;
+	}
+	
+	/* Definition lists in content area */
+	#content dd {
+		font-size:.9em;
+		padding-top:5px;
+		padding-bottom:5px;
+		text-indent:15px;
+	}
+	
+	/* Right Column CSS */	
+	#rightcolumn{
+		float: right;
+		width: 250px;
+		background-color:#FFFFFF;
+		min-height: 300px;
+		padding: 10px;
+		}
+		
+	/* Widgets in the right column */
+	.socialmediawidget {
+		border-style:solid;
+		border-color: #BEBEBE;
+		padding-left: 10px;
+		padding-top: 0px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		margin-top:10px;
+		}
+		
+	.socialmediawidget h3{
+		text-align: center;
+		color: #FFFFFF;
+		background-color: #000000;
+		}	
+	
+	.companyprofilewidget {
+		border-style:solid;
+		border-color: #BEBEBE;
+		padding-left: 10px;
+		padding-top: 0px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+		margin-bottom: 10px;
+		margin-top:10px;
+		}
+		
+	.companyprofilewidget h3{
+		text-align: center;
+		color: #FFFFFF;
+		background-color: #000000;
+		}	
+	
+	.contactwidget {
+		border-style:solid;
+		border-color: #BEBEBE;
+		padding-left: 10px;
+		padding-top: 0px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+		margin-bottom: 10px;
+		margin-top:10px;
+		}
+	
+	.contactwidget h3{
+		text-align: center;
+		color: #FFFFFF;
+		background-color: #000000;
+		}
+	
+	/* Footer CSS */
+	#footer {
+		clear:both;
+		}
+	
+	#footer{
+		min-height:90px;
+		background-color: #000000;
+		color: #FFFFFF;
+		font-size: small;
+		font-style: italic;
+		padding: 10px;
+		}
+	
+	#footer a{
+		color: #FFFFFF;
+		}
+		
+	ul#footer-nav{
+		margin:0px;
+		padding:10px;
+		list-style:none;
+		}
+		
+	ul#footer-nav li{
+		display:inline;
+		}
+		
+	ul#footer-nav li a:hover {
+		background-color: #FFFFFF;
+		color: #000000;
+		}
+	
+	/* format image to a thumbnail size */
+	.thumbnail {
+		width: 100px;
+		Float:left;
+		padding-right:5px;
+	}
+	
+	/* format profile image */
+	.profileimage {
+		Float:left;
+		padding-right:5px;
+	}
+	
+	/* CSS to not display the phone # link on mobile phones */
+	#mobile {
+		display: none;
+		}
+	
+	#desktop {
+		display: inline;
+		}	
+	
+	/* Appraisal services and fee Table formatting */	
+	table {
+		margin: auto;
+		border: 1px solid;
+		text-align: left;
+		}
+		
+	td, th {
+		border: 1px solid;
+		padding: 5px;
+		}
+	
+	caption {
+		font-weight: bold;
+		padding-bottom: 5px;
+		}
+		
+	tr:first-of-type {
+		background-color: #666;
+		color: #eaeaea;
+		}
+	
+	 /* Appraisal services and fee Table formatting */
+	table#sitemap {
+		border: none;
+		text-align: center;
+	}
+	
+	td, th #sitemap{
+		border: none;
+		padding: 5px;
+		}
+	
+		
+		
+		
+		
+		
+		
+	
+		
+		
