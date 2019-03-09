@@ -1,0 +1,201 @@
+/* Global Styles */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.vert-text h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Used to resize the images in the top section of the homepage */
+.imgsize{
+	max-width: 175px;
+}
+
+/* Full Page Image Header Area */
+
+.header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(../img/bg2.JPG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top:25px;
+  margin-top: -25px
+}
+
+/* Developer */
+
+.developer {
+  background-color:#EEE;
+  padding-top:25px;
+}
+
+/* Appraiser */
+
+.appraiser {
+	padding-top:10px;
+  	/*background-color:#0A5175;*/
+  	background-color:#5C9BBA;
+}
+
+/* Engineer */
+
+.engineer {
+	padding-top:10px;
+  	background-color:#EEB211;
+}
+
+/* Blogger */
+
+.blogger {
+	padding-top:10px;
+  	background-color:#0A5175;
+}
+
+/* Tough Mudder*/
+
+.toughmudder {
+	padding-top:10px;
+  	background-color:#FF6600;
+}
+
+/* BBQer */
+
+.bbqer {
+	padding-top:10px;
+	background-color:#F5001D;
+}
+
+/* iPhoneographer */
+
+.iphoneographer {
+	padding-top:10px;
+	padding-bottom:10px;
+  	background-color:#000000;
+  	color:#FFFFFF;
+}
+
+/* Footer */
+
+footer {
+  padding: 100px 0;
+  color: #FFFFFF;
+  background: #000000;
+}
+
+.top-scroll {
+  margin-top: 50px;
+}
+
+.top-scroll a {
+  text-decoration: none;
+  color: inherit;
+}
+
+i.scroll {
+  color: #333333;
+}
+
+i.scroll:hover {
+  color: #0a5175;
+}
+
+/* Contact Page */
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: bold;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* Images that need to be centered */
+
+.pic {
+	margin: 0 auto;
+}
+
+.thumbnail_padding {
+	margin-bottom: 15px;
+}
+
+/* Back to the top*/
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: #0000FF;
+    /*background-color: rgba(235, 235, 235, 0.80);*/
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+    z-index: 1;
+}
+/*
+.back-to-top:hover {    
+    background-color: rgba(135, 135, 135, 0.50);
+}
+*/
+/* Carousel */
+
+.my_carousel {
+	margin: 20px;
+}
+/* Responsive */
+
+@media (max-width: 768px) {
+	
+  .header {
+	background: url(../img/bg2.JPG) no-repeat center center scroll; 
+  }
+}
