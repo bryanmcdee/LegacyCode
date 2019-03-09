@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom -->
+    <link href="css/site.css" rel="stylesheet">
+    
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <br/>
+      <br/>
+      
+      <div class="col-md-offset-3 col-md-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Contact Me</div>
+                <div id="contactFormBody" class="panel-body">
+                    <form role="form" id="contactForm" role="form">
+                        <div class="form-group col-sm-12">
+                            <div class="form-group">
+                                <label for="name" class="control-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name" data-error="Enter your name." required>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <label for="email" class="control-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email address" data-error="Enter a valid email address." required>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div id="honeypotEmailDiv" class="form-group col-sm-12">
+                            <input id="honeypotEmail" class="form-control" type="text" name="email" value="" />
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" rows="5" placeholder="Enter your message" data-error="Enter a message." required></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>                        
+                        <div class=col-xs-12>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary btn-lg col-sm-offset-4 col-sm-4 col-xs-12"">Submit</button>
+                            </div>
+                        </div>
+                    </form>                    
+                    <div id="formSuccessMessage" class="col-xs-12 text-center bg-success" style="display:none;">
+                        <h4>Thank you. Your form has been submitted <span>successfully!</span></h4>
+                        <h4>I will get back to you shortly.</h4>
+                    </div>
+                    <div id="formErrorMessage" class="col-xs-12 text-center bg-danger" style="display:none;">
+                        <h4>Sorry. There was an error submitting your form.</h4>
+                        <h4 id="phpErrorMessage"></h4>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom js -->
+    <script src="js/script.js"></script>
+    <!-- validation -->
+    <script src="js/validator.js"></script>
+  </body>
+</html>

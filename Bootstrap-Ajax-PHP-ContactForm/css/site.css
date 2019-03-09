@@ -1,0 +1,6 @@
+#contactFormBody{
+    min-height: 400px;
+}
+#honeypotEmailDiv {
+    display: none;
+}
